@@ -1,0 +1,11 @@
+In this first practice, the very basic APIs of a priority-based scheduler were created and implemented in a simple 4 task environment. In addition, context switching was implemented, to switch between these 4 tasks according to their priority. These functions where implemented:
+
+- A function to create a task and set is as ready.
+- A function to create a task and set is as blocked.
+- A function to make a task relinquish the CPU (trigger a context switch).
+- A function to set a task as ready.
+- A function to place a task into the ready queue.
+-	A function to remove a task from the ready queue.
+- A function to start the scheduler.
+- A function to decide which task is next (based on priority).
+- An exception for control switching.
