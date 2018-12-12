@@ -5,7 +5,7 @@ In this first practice, the very basic APIs of a priority-based scheduler were c
 - A function to make a task relinquish the CPU (trigger a context switch).
 - A function to set a task as ready.
 - A function to place a task into the ready queue.
--	A function to remove a task from the ready queue.
+- A function to remove a task from the ready queue.
 - A function to start the scheduler.
 - A function to decide which task is next (based on priority).
 - An exception for control switching.
