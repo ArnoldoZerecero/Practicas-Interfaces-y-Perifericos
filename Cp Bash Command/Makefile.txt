@@ -1,0 +1,15 @@
+CC = gcc
+CFLAGS = -Wall -Werror
+OUTPUT = FileCP
+DEBUG = -g
+SOURCES = FileCP.c
+
+all:
+	$(CC) $(SOURCES) $(CFLAGS) -o $(OUTPUT)
+debug:
+	 $(CC) $(SOURCES) $(CFLAGS) $(DEBUG) -o $(OUTPUT)
+clean:
+	rm -f $(OUTPUT)
+fresh:
+	make clean
+	make all
