@@ -1,0 +1,3 @@
+In this third lab practice, the objective was to develop a simplified version of the “cp” bash command. The function created must generate an exact copy of the source file received as a parameter, no matter what kind of file it is. The generated file must be created on the same path as the source file, and must have the same name as the source file, with “_copy” added to the file name string. Ex: Newfile -> Newfile_copy, Newfile.txt - > Newfile_copy.txt.
+
+The application was developed using the open, close, stat, read and write APIs from die.net, creating the file with open(), knowing its size with stat() and copying its contents using read() on the source file and write() on the destination copy file.
